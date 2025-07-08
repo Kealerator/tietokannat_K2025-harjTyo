@@ -31,7 +31,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `Opintojakso` WRITE;
 /*!40000 ALTER TABLE `Opintojakso` DISABLE KEYS */;
-INSERT INTO `Opintojakso` VALUES (1,'Alla Hejsan På Svenska!',5,'IN06969'),(2,'Matematiikan perusteet 1',10,'IN00686'),(3,'Matematiikan perusteet 2',10,'IN00687'),(4,'Sähkötyöturvallisuus 101',5,'IN00777');
+INSERT INTO `Opintojakso` VALUES (1,'Alla Hejsan På Svenska!',5,'IN06969'),(2,'Matematiikan perusteet 1',10,'IN00686'),(3,'Matematiikan perusteet 2',10,'IN00688'),(4,'Sähkötyöturvallisuus 101',5,'IN00777');
 /*!40000 ALTER TABLE `Opintojakso` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -41,7 +41,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `Opiskelija` WRITE;
 /*!40000 ALTER TABLE `Opiskelija` DISABLE KEYS */;
-INSERT INTO `Opiskelija` VALUES (1,'Matti','Mainio','TVT25SPL','Verstaskatu 1'),(2,'Kroisos','Pennonen','TVT25SPL','Penninkatu 6'),(3,'Aku','Ankka','TVT25SPL','Paratiisitie 31'),(4,'Hannu','Hanhi','TVT25SPL','Kevätkatu 42'),(5,'Mikko','Mallikas','TVT25SPL','Varastokatu 13'),(6,'Otso','Åkerman','TVT25SPL','Eerikinkatu 2B'),(7,'Iines','Ankka','TVT25SPL','Liisankatu 7'),(8,'Pelle','Peloton','TVT25SPL','Tehdaskatu 9');
+INSERT INTO `Opiskelija` VALUES (1,'Matti','Mainio','TVT25SPL','Verstaskatu 3'),(2,'Kroisos','Pennonen','TVT25SPL','Penninkatu 6'),(3,'Aku','Ankka','TVT25SPL','Paratiisitie 31'),(4,'Hannu','Hanhi','TVT25SPL','Kevätkatu 42'),(5,'Mikko','Mallikas','TVT25SPL','Varastokatu 13'),(6,'Otso','Åkerman','TVT25SPL','Eerikinkatu 2B'),(7,'Iines','Ankka','TVT25SPL','Liisankatu 7'),(8,'Pelle','Peloton','TVT25SPL','Tehdaskatu 9'),(9,'Hessu','Hopo','TVT25SPL','Lahdenväylä 7');
 /*!40000 ALTER TABLE `Opiskelija` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -54,4 +54,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-07-08 18:04:25
+-- Dump completed on 2025-07-08 22:57:55
