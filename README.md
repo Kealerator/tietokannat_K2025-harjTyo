@@ -41,16 +41,24 @@ FLUSH PRIVILEGES;
 ### 1. Lataa repo
 
 
-`git clone https://github.com/Kealerator/tietokannat_K2025-harjTyo.git`
+```shell
+git clone https://github.com/Kealerator/tietokannat_K2025-harjTyo.git
+```
 
 ### 2. Mene repon hakemiston /Express/ -kansioon
-`cd Express/`
+```shell
+cd Express/
+```
 
 ### 3. Käynnistä Express
-`npm start`
+```shell
+npm start
+```
 
 ### 4. Avaa verkkoselain ja mene Expressin käyttämälle portille varmistaaksesi sen toimivuus (oletusportti 3000)
-`localhost:3000`
+```shell
+firefox localhost:3000
+```
 
 ### Nyt voit suorittaa REST-API:n testausta selaimella, tai vaikka Postmanilla!
 <img width="296" height="143" alt="Screenshot from 2025-07-16 15-04-22" src="https://github.com/user-attachments/assets/12e7e316-5140-42d6-9c08-881a7b3f7a9f" />
