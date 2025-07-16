@@ -21,6 +21,7 @@ const myConnectionString = "mysql://<oma_user>:<oma_salasana>@localhost:<oma_por
 
 
 <br/><br/>
+
 ### Oletusasetukset
 - MySQL -tietokanta käyttää porttia 3306
 - Oletusasetuksena MySQL -tietokantaan pääsee ainoastaan 'netuser' -käyttäjä, jonka voit luoda näin: 
@@ -34,6 +35,28 @@ FLUSH PRIVILEGES;
 <br/> <br/>
 <br/> <br/>
 
+
+## Käyttö
+
+### 1. Lataa repo
+
+
+`git clone https://github.com/Kealerator/tietokannat_K2025-harjTyo.git`
+
+### 2. Mene repon hakemiston /Express/ -kansioon
+`cd Express/`
+
+### 3. Käynnistä Express
+`npm start`
+
+### 4. Avaa verkkoselain ja mene Expressin käyttämälle portille varmistaaksesi sen toimivuus (oletusportti 3000)
+`localhost:3000`
+
+### Nyt voit suorittaa REST-API:n testausta selaimella, tai vaikka Postmanilla!
+
+<br/><br/>
+
+
 ## Opintorekisteri -MySQL tietokannan rakenne
 
 <br/>
@@ -44,7 +67,9 @@ FLUSH PRIVILEGES;
 - Arviointi (välitaulu)
 - Suoritus (näkymä)
 
-<br/><br/>
+<br/>
+
+---
 
 ### Opiskelija -taulu
 
@@ -56,7 +81,9 @@ FLUSH PRIVILEGES;
 | Luokkatunnus | VARCHAR(45) | -          |
 | Osoite       | VARCHAR(45) | -          |
 
-<br/><br/>
+<br/>
+
+----
 
 ### Opintojakso -taulu
 
@@ -67,7 +94,10 @@ FLUSH PRIVILEGES;
 | Laajuus       | TINYINT     | -          |
 | Koodi         | VARCHAR(45) | NN, UQ     |
 
-<br/><br/>
+<br/>
+
+
+----
 
 ### Arviointi -taulu (välitaulu)
 
@@ -78,7 +108,10 @@ FLUSH PRIVILEGES;
 | Arvosana      | TINYINT     | -    |
 | Päiväys       | DATE        | -    |
 
-<br/><br/>
+<br/>
+
+
+----
 
 ### Suoritus -taulu (näkymä)
 
@@ -91,14 +124,14 @@ FLUSH PRIVILEGES;
 | Nimi          | VARCHAR(45) | -    |
 | Arvosana      | TINYINT     |
 
-<br/><br/><br/><br/>
+<br/><br/>
 
 ## ER-diagrammi:
 <br/>
 
 <img width="714" height="224" alt="Scheme" src="https://github.com/user-attachments/assets/d6d5122d-5f83-42a0-ae51-cc1d03e77d71" />
 
-<br/><br/><br/><br/>
+<br/><br/>
 
 ## Aliohjelmat
 
@@ -119,7 +152,8 @@ Inputs:
 ```sql
 CALL UusiKurssi("Matematiikka 101", 10, "IN00123");
 ```
-<br/><br/>
+
+----
 
 ### PoistaKurssiNimellä
 Poistaa kurssin Opintojakso -taulukosta mikäli syötetty nimi löytyy.
@@ -130,7 +164,8 @@ Inputs:
 ```sql
 CALL PoistaKurssiNimellä("Matematiikka 101");
 ```
-<br/><br/>
+
+----
 
 ### LisääUusiSuoritus
 Lisää uuden suorituksen Arviointi -taulukkoon. Antaa myös virheilmoituksen jos syöttöarvoilla ei esim. löydy opiskelijaa.
@@ -147,7 +182,8 @@ CALL LisääUusiSuoritus(
   "IN00123", 3
 );
 ```
-<br/><br/>
+
+----
 
 ### PoistaSuoritus
 Poistaa suorituksen Arviointi -taulukkoon. Antaa myös virheilmoituksen jos syöttöarvoilla ei esim. löydy opiskelijaa.
@@ -160,7 +196,6 @@ Inputs:
 ```sql
 CALL PoistaSuoritus("Masa", "Mainio", "IN00123");
 ```
-<br/><br/>
 
 
 ## REST-API
