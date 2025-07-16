@@ -2,7 +2,13 @@
 
 Kurssin harjoitustyön tehtävänä oli rakentaa aiemmin kurssilla luodusta "Opintorekisteri" -tietokannasta REST-API ja MVC- arkkitehtuuria käyttävä MySQL/Node/Express -sovellus.
 
-<br/><br/>
+<br/>
+
+<a href="https://unioulu-my.sharepoint.com/:v:/g/personal/marundel24_students_oamk_fi/EW9gauNKe3hMmYvBjNac2DcBSg0wGyjUGR28SE8ycNVXYw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZLoghi">Esittelyvideo OneDrive</a>
+
+<a href="https://www.dropbox.com/scl/fi/tsyrs58xitjacw62j33xv/Matti-Rundelin-Opintorekisteri-Harjoitusty.mkv?rlkey=8yu9ew7licwi6osdlae3yv8is&st=iygvvawg&dl=0">Esittelyvideo Dropbox</a>
+
+<br/>
 
 ## Järjestelmävaatimukset
 - <a href="https://nodejs.org/en/download">Node.js</a> v14 tai uudempi
