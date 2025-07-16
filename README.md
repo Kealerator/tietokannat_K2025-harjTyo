@@ -53,6 +53,9 @@ FLUSH PRIVILEGES;
 `localhost:3000`
 
 ### Nyt voit suorittaa REST-API:n testausta selaimella, tai vaikka Postmanilla!
+<img width="296" height="143" alt="Screenshot from 2025-07-16 15-04-22" src="https://github.com/user-attachments/assets/12e7e316-5140-42d6-9c08-881a7b3f7a9f" />
+
+
 
 <br/><br/>
 
